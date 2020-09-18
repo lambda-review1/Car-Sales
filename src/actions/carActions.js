@@ -5,7 +5,7 @@ export const addNewFeature = newFeature => {
     return {
         type: ADD_NEW_FEATURE,
         payload: newFeature
-    };
+    }; 
 };
 
 export const removeFeature = feature => {
